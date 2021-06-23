@@ -25,3 +25,4 @@ Detail information about problem statement and dataset can be found [here](https
 2. [ResUNet](https://arxiv.org/pdf/1904.00592.pdf)
 3. [Vision Transformers](https://arxiv.org/pdf/2010.11929.pdf)
 4. [Coding ResNet in Keras](https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33)
+5. [Kaggle kernel]( https://www.kaggle.com/paulorzp/rle-functions-run-lenght-encode-decode)
