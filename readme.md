@@ -8,16 +8,20 @@ Detail information about problem statement and dataset can be found [here](https
 
 ## Solution 1
 
-1. Images are classified into defect and non-defect (binary classification) using Xception CNN.
+1. Images are classified into defect and non-defect (binary classification) using Xception CNN
 
 2. Defect images are passed on to segmentation model implemented using ResUNet for the localization of defect
+
+3. Output images are defect images with segmentation mask  
 
 
 ## Solution 2
 
-1. Images are classified into defect type 0 (non-defect),1,2,3 and 4 (multilabel classification)using Vision Transformers.
+1. Images are classified into defect type 0 (non-defect),1,2,3 and 4 (multilabel classification)using Vision Transformers
 
-2. 4 segmentation models have been have been trained (ResUNet), each for a single defect type. Based on the output of classification model, the image is passed to the respective segmentation model for the localization of defect. 
+2. Four segmentation models have been have been trained (ResUNet), each for a single defect type. Based on the output of classification model, the image is passed to the respective segmentation model for the localization of defect
+
+3. Output images are defect images with segmentation mask 
 
 
 ## References
